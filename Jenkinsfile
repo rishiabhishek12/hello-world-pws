@@ -21,8 +21,7 @@ pipeline {
                                   passwordVariable: 'PASSWORD']]) {
 
                     sh 'cf login -a http://api.run.pivotal.io -u $USERNAME -p $PASSWORD'
-                    sh '2'
-                    sh 'cf push -s demo'
+                    sh 'cf push'
                 }
             }
 
