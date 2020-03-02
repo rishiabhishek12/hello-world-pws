@@ -1,0 +1,6 @@
+---
+applications:
+- name: hello-world-pws
+  instances: 1
+  memory: 700m
+  path: target/hello-world-pws-0.0.1-SNAPSHOT.jar
